@@ -4,14 +4,6 @@
 This is a assignment I completed in CIS 310. 
 . Queries used must contain 10+ of checklist elements (found on the last page). Check off the elements as you go. (Note, if you create a single question that uses 10 elements, great, that fulfills the ask here)
 
-
-
-
-
-
-•	Question: Retrieve property Id, address, square footage and monthly rent of all properties with square footage more than 1200 square feet with either 2 bedrooms or 3 bedrooms and monthly rent is between $1200 and $1700, and floors is not null. Sorting the results of square footage in ascending order:
-
-
 SELECT PROPERTY_ID, ADDRESS, SQR_FT, MONTHLY_RENT, FLOORS, OWNER_NUM
 FROM PROPERTY
 WHERE SQR_FT > 1200
